@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "VDQuickDevelopTools.h"
+
 @interface ViewController ()
 
 @end

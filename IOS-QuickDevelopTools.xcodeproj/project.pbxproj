@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E7E9808D89304D745CA43243 /* libPods-IOS-QuickDevelopTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A812967511B1FC150FAD6BB /* libPods-IOS-QuickDevelopTools.a */; };
 		FEF351951B79E4420070C6D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF351941B79E4420070C6D5 /* main.m */; };
 		FEF351981B79E4420070C6D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF351971B79E4420070C6D5 /* AppDelegate.m */; };
 		FEF3519B1B79E4420070C6D5 /* IOS_QuickDevelopTools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEF351991B79E4420070C6D5 /* IOS_QuickDevelopTools.xcdatamodeld */; };
@@ -15,6 +16,7 @@
 		FEF351A31B79E4420070C6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF351A21B79E4420070C6D5 /* Images.xcassets */; };
 		FEF351A61B79E4420070C6D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF351A41B79E4420070C6D5 /* LaunchScreen.xib */; };
 		FEF351B21B79E4420070C6D5 /* IOS_QuickDevelopToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF351B11B79E4420070C6D5 /* IOS_QuickDevelopToolsTests.m */; };
+		FEF351BF1B79E4AE0070C6D5 /* IOS-QuickDevelopTools.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FEF351BB1B79E4AE0070C6D5 /* IOS-QuickDevelopTools.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A812967511B1FC150FAD6BB /* libPods-IOS-QuickDevelopTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOS-QuickDevelopTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		823C4F901B140D31B30751DE /* Pods-IOS-QuickDevelopTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS-QuickDevelopTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IOS-QuickDevelopTools/Pods-IOS-QuickDevelopTools.debug.xcconfig"; sourceTree = "<group>"; };
+		E3955CD4E98616A50C9879EA /* Pods-IOS-QuickDevelopTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS-QuickDevelopTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-IOS-QuickDevelopTools/Pods-IOS-QuickDevelopTools.release.xcconfig"; sourceTree = "<group>"; };
 		FEF3518F1B79E4420070C6D5 /* IOS-QuickDevelopTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-QuickDevelopTools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF351931B79E4420070C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF351941B79E4420070C6D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +47,8 @@
 		FEF351AB1B79E4420070C6D5 /* IOS-QuickDevelopToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-QuickDevelopToolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF351B01B79E4420070C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF351B11B79E4420070C6D5 /* IOS_QuickDevelopToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_QuickDevelopToolsTests.m; sourceTree = "<group>"; };
+		FEF351BB1B79E4AE0070C6D5 /* IOS-QuickDevelopTools.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "IOS-QuickDevelopTools.podspec"; sourceTree = "<group>"; };
+		FEF351C01B79E50C0070C6D5 /* VDQuickDevelopTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDQuickDevelopTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E9808D89304D745CA43243 /* libPods-IOS-QuickDevelopTools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +70,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CE32C9848071FC71286BBDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				823C4F901B140D31B30751DE /* Pods-IOS-QuickDevelopTools.debug.xcconfig */,
+				E3955CD4E98616A50C9879EA /* Pods-IOS-QuickDevelopTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7B8DDF71D2FA805F66876AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A812967511B1FC150FAD6BB /* libPods-IOS-QuickDevelopTools.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FEF351861B79E4420070C6D5 = {
 			isa = PBXGroup;
 			children = (
 				FEF351911B79E4420070C6D5 /* IOS-QuickDevelopTools */,
 				FEF351AE1B79E4420070C6D5 /* IOS-QuickDevelopToolsTests */,
 				FEF351901B79E4420070C6D5 /* Products */,
+				6CE32C9848071FC71286BBDA /* Pods */,
+				C7B8DDF71D2FA805F66876AD /* Frameworks */,
+				FEF351BB1B79E4AE0070C6D5 /* IOS-QuickDevelopTools.podspec */,
+				FEF351BC1B79E4AE0070C6D5 /* Pod */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +151,30 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FEF351BC1B79E4AE0070C6D5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FEF351BD1B79E4AE0070C6D5 /* Assets */,
+				FEF351BE1B79E4AE0070C6D5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FEF351BD1B79E4AE0070C6D5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FEF351BE1B79E4AE0070C6D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FEF351C01B79E50C0070C6D5 /* VDQuickDevelopTools.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FEF351B51B79E4420070C6D5 /* Build configuration list for PBXNativeTarget "IOS-QuickDevelopTools" */;
 			buildPhases = (
+				20BA36A78D7239CDCF064FBF /* Check Pods Manifest.lock */,
 				FEF3518B1B79E4420070C6D5 /* Sources */,
 				FEF3518C1B79E4420070C6D5 /* Frameworks */,
 				FEF3518D1B79E4420070C6D5 /* Resources */,
+				C7CB3A4419611BAB0D8FF19C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -203,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEF351A11B79E4420070C6D5 /* Main.storyboard in Resources */,
+				FEF351BF1B79E4AE0070C6D5 /* IOS-QuickDevelopTools.podspec in Resources */,
 				FEF351A61B79E4420070C6D5 /* LaunchScreen.xib in Resources */,
 				FEF351A31B79E4420070C6D5 /* Images.xcassets in Resources */,
 			);
@@ -216,6 +272,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20BA36A78D7239CDCF064FBF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7CB3A4419611BAB0D8FF19C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IOS-QuickDevelopTools/Pods-IOS-QuickDevelopTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FEF3518B1B79E4420070C6D5 /* Sources */ = {
@@ -351,6 +440,7 @@
 		};
 		FEF351B61B79E4420070C6D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 823C4F901B140D31B30751DE /* Pods-IOS-QuickDevelopTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "IOS-QuickDevelopTools/Info.plist";
@@ -361,6 +451,7 @@
 		};
 		FEF351B71B79E4420070C6D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3955CD4E98616A50C9879EA /* Pods-IOS-QuickDevelopTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "IOS-QuickDevelopTools/Info.plist";
@@ -422,6 +513,7 @@
 				FEF351B71B79E4420070C6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEF351B81B79E4420070C6D5 /* Build configuration list for PBXNativeTarget "IOS-QuickDevelopToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +522,7 @@
 				FEF351BA1B79E4420070C6D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
