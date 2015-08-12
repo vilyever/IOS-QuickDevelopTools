@@ -37,6 +37,6 @@ Pod::Spec.new do |s|
   s.dependency 'UISearchBar-InnerComponents', '~> 1.0.0'
   s.dependency 'MediaPlayer-VolumeControl', '~> 1.0.1'
   s.dependency 'NSDictionary-Enhance', '~> 1.0.0'
-  s.dependency 'IOS-QuickDevelopMacros', '~> 1.0.0'
+  s.dependency 'IOS-QuickDevelopMacros', '~> 1.0.1'
 
 end
