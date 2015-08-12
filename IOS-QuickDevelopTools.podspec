@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "IOS-QuickDevelopTools"
-  s.version          = "1.0.2"
+  s.version          = "1.0.3"
   s.summary          = "include lots of my tools."
   s.description      = <<-DESC
                        include lots of my tools for one line install.
