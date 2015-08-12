@@ -4,7 +4,7 @@
 ## Import
 [CocoaPods](http://cocoapods.org)
 
-`pod 'IOS-QuickDevelopTools', '~> 1.0.0'`
+`pod 'IOS-QuickDevelopTools', '~> 1.0.3'`
 
 ## Include
 
