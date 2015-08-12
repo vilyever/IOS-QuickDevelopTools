@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "IOS-QuickDevelopTools"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "include lots of my tools."
   s.description      = <<-DESC
                        include lots of my tools for one line install.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "vilyever" => "vilyever@gmail.com" }
-  s.source           = { :git => "https://github.com/vilyever/IOS-QuickDevelopTools", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/vilyever/IOS-QuickDevelopTools.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/vilyever'
 
   s.platform     = :ios, '7.0'
@@ -33,5 +33,10 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
 
   s.dependency 'UISlider-TrackHeight', '~> 1.0.2'
+  s.dependency 'UIScrollView-Position', '~> 1.0.0'
+  s.dependency 'UISearchBar-InnerComponents', '~> 1.0.0'
+  s.dependency 'MediaPlayer-VolumeControl', '~> 1.0.1'
+  s.dependency 'NSDictionary-Enhance', '~> 1.0.0'
+  s.dependency 'IOS-QuickDevelopMacros', '~> 1.0.0'
 
 end
